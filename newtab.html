@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ethos</title>
+    <style>
+        #overlay {
+            position: fixed; /* Sit on top of the page content */
+            display: block; /* Hidden by default */
+            width: 100%; /* Full width (cover the whole page) */
+            height: 100%; /* Full height (cover the whole page) */
+            top: 0; 
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1 id="greeting"></h1>
+    <p id="time"></p>
+    <p id="date"></p>
+    <div id="overlay">
+        <input id="entry"></input>
+    </div>
+    <div id="background">
+        <video autoplay muted loop id="bgvid" class="stretch" alt="">
+            <source src="background/Foggy Mountain.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

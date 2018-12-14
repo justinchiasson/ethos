@@ -1,0 +1,16 @@
+{
+    "name": "Ethos",
+    "version": "1.0",
+    "description": "Day planner that keeps the user motivated and up-to-date on their incoming tasks, without sacrificing form for function.",
+    "author": "Justin Chiasson",
+
+    "permissions": [
+        "storage"
+    ],
+
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+
+    "manifest_version": 2
+}
